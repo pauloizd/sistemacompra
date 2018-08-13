@@ -1108,3 +1108,23 @@
     overflow: visible !important;
   }
 }
+
+form{
+  margin-left: auto;   
+}
+.carousel-inner img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+.text{
+text-align: center;
+color: black;
+margin-top: 20px;
+margin-bottom: 10px;
+
+}
+.container-e{
+margin-top: 4cm;  
+}
