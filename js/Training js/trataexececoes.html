@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Tratamento de Exceções</title>
+</head>
+	<body>
+        <p>Informe um valor entre 10 e 20? </p>
+        <input type="text" id="numero">
+        <button onclick="verifica()">Verificar</button>
+        <p id="msg"></p> <!--só para atirbuir mensagem no corpo -->        
+        <script>
+        	function verifica(){
+             alert(' Vamos lá! ');
+             var x = document.getElementById('numero').value; //estou pegando o elemento pelo id e salvando em x;
+        	
+        	 try{
+              if (x == '') throw 'Informe um valor?'; 
+        	  if (isNaN(x)) throw 'Você precisa informar um valor :/ '; //Com essa função vc e obrigatorio a digitar um valor;
+        	  x = Number(x); //Estou dizendo que x tem que ser númerico;
+        	  if (x < 10 || x > 20) throw 'O número tem que ser entre 10 e 20'; //throw vai mostrar a mensagem referente a condição;
+       
+        	  document.getElementById('msg').innerHTML = 'Sucesso !!, Você digitou: ' +x;
+        	}catch(erro){
+              document.getElementById('msg').innerHTML = 'Erro: ' +erro;
+        	}finally{
+        		document.getElementById('numero').value = '';
+        	}
+        
+         }
+        </script>
+	</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Data e hora</title>
+</head>
+	<body>
+            <script>
+            		var d =  new Date();
+	       
+	             console.log('Date: ' + d.getDate());
+	             console.log('Day: ' + d.getDay()); 
+	             console.log('Year: ' + d.getFullYear()); 
+	             console.log('Hour: ' + d.getHours()); 
+	             console.log('Milliseconds: ' + d.getMilliseconds());
+	             console.log('Minutes: ' + d.getMinutes()); 
+	             console.log('Month: ' + d.getMonth()); 
+	             console.log('Seconds: ' + d.getSeconds()); 
+	             console.log('Time: ' + d.getTime()); 
+	            
+                 d.setDate(02);
+	             console.log(d);
+	            //console.log(d.toUTCString());
+	            //console.log(d.toDateString());
+                function formataData(data = new Date()){
+                	var dia = data.getDate();
+                    var mes = data.getMonth()+1;
+                    var ano = data.getFullYear();
+                    var hora = data.getHours();
+                    var minuto = data.getMinutes();
+                
+                 if(dia.toString().length == 1)dia = '0'+dia;
+                 if(mes.toString().length == 1)mes = '0'+mes;
+                  return dia+'/'+mes+'/'+ano+ ' horario: ' +hora+ ':'+minuto;
+                }
+            
+               console.log(formataData()); 
+            //toUTCString
+            //toDateString
+            </script>
+	</body>
+</html>
