@@ -1,0 +1,65 @@
+<html lang="pt-br">
+ <head>
+   <meta charset="utf-8">
+<title>Js condição</title> 
+</head>
+
+    <body>
+         <script>
+          
+          var n = 10;
+           if(n > 5){
+            console.log('Primeira condição verdadeira');
+           }
+           else if(n == 5){
+            console.log('Segunda condição verdadeira');
+           }else{
+            console.log('Erro!! ');
+           }
+        
+           /*var diasemana = new Date().getDay(); 
+           switch(diasemana){
+            case 0:    
+            console.log('Hoje é segunda');
+            break;
+            case 1:    
+            console.log('Hoje é terça');
+            break;
+            case 2:    
+            console.log('Hoje é quarta');
+            break;
+            case 3:    
+            console.log('Hoje é quinta');
+            break;
+            case 4:    
+            console.log('Hoje é sexta');
+            break;
+            case 5:    
+            console.log('Hoje é sabado');
+            break;
+            case 6:    
+            console.log('Hoje é domingo');
+            break;
+            default:
+            console.log('#####');
+            }*/
+            
+            /*var linguagens = ['PHP', 'JAVA', 'C++', 'C#', 'NET', 'Csharp'];
+            for(i=0; i<linguagens.length; i++){
+              if(i == 2) break;
+              console.log(linguagens[i]);
+            }*/
+           
+            var y = 0;
+            var linguagens = ['PHP', 'JAVA', 'C++', 'C#', 'NET', 'Csharp'];
+            //while(y < linguagens.length){
+            //console.log(linguagens[y]);
+            //y++;
+            //}
+            do{
+                console.log(linguagens[y]);
+                y++;
+            }while(y < linguagens.length)
+         </script>
+    </body>
+ </html>

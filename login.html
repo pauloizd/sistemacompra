@@ -15,7 +15,13 @@
       }
       </style>
 </head>
- 
+
+	<script>
+		function alertar(elemento){
+		elemento.innerHTML = 'Você tem certeza que quer enviar seus dados sem fazer uma leiutura outra vez?';
+		}     
+	</script>
+
    <body>
     !-- navbar -->
 	<div class="navbar-wrapper">
@@ -69,7 +75,7 @@
                                        <h6>Senha:</h6>
                                         <input type="password"  name="senha" id="senha" placeholder="********" data-rule="senha" data-msg="Digite sua senha" required="true">
 									</div>
-									<input type="button" value="Enviar" class="btn btn-theme pull-left">
+									<input type="button" value="Enviar" class="btn btn-theme pull-left" onclick="alertar(this.elemento)">
 							</div>
 						</form>
 					</div>
