@@ -14,7 +14,13 @@
             text-align: center;
         }
         </style>
-    </head>
+    
+          <script>
+          function alertar(){
+          alert('Certeza que seus dados estão corretos?');
+          }
+          </script>
+   </head>
     
     <body>
         <!-- navbar -->
@@ -83,7 +89,7 @@
                                             <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="" placeholder="Fale um pouco sobre você." required="true"></textarea>
                                             <div class="validation"></div>
                                         </div>
-                                        <input type="submit" value="Enviar" class="btn btn-theme pull-left">
+                                        <input type="submit" value="Enviar" class="btn btn-theme pull-left" onmousemove="alertar()">
                                     </div>
                                 </div>
                             </form>

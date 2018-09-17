@@ -17,8 +17,8 @@
 </head>
 
 	<script>
-		function alertar(elemento){
-		elemento.innerHTML = 'Você tem certeza que quer enviar seus dados sem fazer uma leiutura outra vez?';
+		function alertar(){
+	    alert('Enviar seus dados?');
 		}     
 	</script>
 
@@ -48,7 +48,8 @@
     <section id="contact" class="section green">
 		<div class="container">
 			<h2 class="cadastro"><font size="10">LOGIN</font></h2>
-            <br>
+			<hr>
+			<br>
             <h5>
             <p>
 			
@@ -73,7 +74,7 @@
                                        <h6>Senha:</h6>
                                         <input type="password"  name="senha" id="senha" placeholder="********" data-rule="senha" data-msg="Digite sua senha" required="true">
 									</div>
-									<input type="button" value="Enviar" class="btn btn-theme pull-left" onclick="alertar(this.elemento)">
+									<input type="button" value="Enviar" class="btn btn-theme pull-left" onmouseover="alertar()">
 							</div>
 						</form>
 					</div>
