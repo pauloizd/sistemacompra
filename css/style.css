@@ -1706,3 +1706,7 @@ i.icon-white {
 		width: 100%;
 	}
 }
+.icone{
+	float: left ;
+	margin: 0; padding: 0;
+}
