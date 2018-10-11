@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Produto</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link rel="shortcut icon" href="img/ele.ico">
+<style>    
+form{
+  margin-left: auto;   
+
+}
+.carousel-inner img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+.text{
+text-align: center;
+color: white ;
+margin-top: 20px;
+margin-bottom: 10px;
+background-color:#333333;
+
+}
+.container-P{ 
+  padding: 10px;
+  margin-top: 5px;
+  background:rgb(68, 68, 68);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+.VENDAS{
+ 
+  margin-top: 1cm;  
+  
+}
+.card-img-bottom, .card-img-top{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+.card-body{
+
+  background-color: #97694F
+}
+.card{
+  margin-bottom: 1px;
+  margin-top: 1px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+ 
+}
+.link{
+     position: absolute;
+      top: 15px;
+      left: 800px;
+      margin-bottom: 10px;
+}
+body{
+  font-family: "Open Sans", Arial, sans-serif;
+}
+.carrinho { 
+    margin-top: 22px; 
+    margin-right: 10px;
+    margin-bottom: 18px;
+    margin-left: 30px;
+	}
+	.usuario{
+	margin-top: 25px; 
+    margin-right: 10px;
+    margin-bottom: 18px;
+    margin-left: 10px;
+	}
+</style>
+</head>
+ 
+<body >
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark" id="nav">
+    
+  <div class="titulo">
+    <h1 style="color: #333333">
+      <a class="navbar-brand" href="index.html " ><font size="6"> Eletro technology   </font></a>
+    </h1> 
+  </div>
+        <div class="link">
+        <h2>  
+        <a class="navbar-brand" href="produto.html">Produtos</a>
+        <a class="navbar-brand" href="cadastro.html">Cadastre-se</a>
+        <a class="navbar-brand" href="login.html">Login</a>
+        </h2> 
+       </div>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <form class="form-inline" action="/action_page.php">
+    <input class="form-control mr-sm-2" type="text" placeholder="Pesquisa">
+    <button class="btn btn-success" type="submit">Pesquisa</button>
+  </form>
+  <a href="url"><img class="carrinho" src="http://pngimage.net/wp-content/uploads/2018/05/carrinho-de-supermercado-icone-png-2.png" height="30" width="30"></a>
+  <a href="login.html"><img class="usuario" src="https://icon-icons.com/icons2/403/PNG/512/user-green_40488.png" height="30" width="30"></a>
+  
+</nav>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/works/monitor.png" alt="monitor" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="img/works/not.png" alt="Notebook/camera" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="img/works/placamae.png" alt="Placa" width="1100" height="500">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<div class="VENDAS">
+  <div class="container-fluid">
+    <h2 class="text"> MAIS VENDIDOS</h1>
+    <div class="row">
+      <div class="col" >
+        <div class="container">
+          <div id="controle_xbox" class="card" style="width:400px">
+            <img class="card-img-top" src="img/pro/adp.jpg" alt="Card image" style="width:85%">
+            <div class="card-body">
+              <h4 class="card-title">Controle sem fio para xbox one + adaptador sem fio p/ pc - preto</h4>
+              <h4 class="card-title"> Preço: R$ 349,99 </h4>
+              <p class="card-text">Em até 10x R$ 35,08 sem juros</p>
+              <a href="#" class="btn btn-primary">Compra</a>
+              <a href="#" class="btn btn-primary">Enviar ao carinho</a>
+            </div>
+          </div>
+          <br>
+          
+          
+          <div id="jogo_hunter" class="card" style="width:400px"> 
+            <img class="card-img-bottom" src="img/pro/jogox.jpg" alt="Card image" style="width:70%" >
+            <div class="card-body">
+              <h4 class="card-title">Monster Hunter Word Br - 2018 - Xbox One</h4>
+              <h4 class="card-title">Preço:	R$ 249,00<br>
+                  Preço promocional:	R$ 179,00 </h4>
+              <p class="card-text">Em até 10x R$ 126,17 sem juros</p>
+              <a href="#" class="btn btn-primary">Compra</a>
+              <a href="#" class="btn btn-primary">Enviar ao carinho</a>
+            </div>
+          
+          </div>
+        </div>
+        
+      </div>
+      <div class="col" >
+          <div class="container-e">
+            <div id="jogo_ps4"  class="card" style="width:400px">
+              <img class="card-img-top" src="img/pro/ps4.jpeg" alt="Card image" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title">Ps4 - Controle sem fio Dualshock Ps4 - Preto</h4>
+                <h4 class="card-title">Preço:	R$ 279,99 </h4>
+                <p class="card-text">Em até 9x R$ 31,11 sem juros </p>
+                <a href="#" class="btn btn-primary">Compra</a>
+                <a href="#" class="btn btn-primary">Enviar ao carinho</a>
+              </div>
+            </div>
+            <br>
+            
+            
+            <div id="xbox_s"  class="card" style="width:400px"> 
+              <img class="card-img-bottom" src="img/pro/xbox.jpeg" alt="Card image" style="width:85%">
+              <div class="card-body">
+                <h4 class="card-title">Console Xbox One S 500GB Branco</h4>
+                <h4 class="card-title">	R$ 1.261,61 </h4>
+                <p class="card-text">Em até 10x R$ 126,17 sem juros</p>
+                <a href="#" class="btn btn-primary">Compra</a>
+                <a href="#" class="btn btn-primary">Enviar ao carinho</a>
+              </div>
+            
+            </div>
+          </div>
+          
+        </div>
+        <div class="col" >
+            <div class="container">
+              <div id="fifa_18" class="card" style="width:400px">
+                <img class="card-img-top" src="img/pro/jogops.jpg" alt="Card image" style="width:74%">
+                <div class="card-body">
+                  <h4 class="card-title">Fifa 18 - 2018 - PlayStation 4</h4>
+                  <h4> Preço:	R$ 104,75</h4>
+                  <p class="card-text">Em até 3x R$ 34,93 sem juros </p>
+                  <a href="#" class="btn btn-primary">Compra</a>
+                  <a href="#" class="btn btn-primary">Enviar ao carinho</a>
+                </div>
+              </div>
+              <br>
+              
+              
+              <div  id="nintendo" class="card" style="width:400px"> 
+                <img class="card-img-bottom" src="img/pro/nintendo.jpeg" alt="Card image" style="width:93%">
+                <div class="card-body">
+                  <h4 class="card-title">New Nintendo 2Ds XL - Preto e Azul</h4>
+                  <h4 class="card-title">Preço:	R$ 1.299,99 </h4>
+                  <p class="card-text">Em até 10x R$ 130,08 sem juros</p>
+                  <a href="#" class="btn btn-primary">Compra</a>
+                  <a href="#" class="btn btn-primary">Enviar ao carinho</a>
+                </div>
+              
+              </div>
+            </div>
+            
+          </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col" >
+          <div class="container">
+            <div id="volante_jogos" class="card" style="width:400px">
+              <img class="card-img-top" src="img/pro/vol.jpeg" alt="Card image" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title">Volante Para Ps2 Ps3 E Pc Com Marcha Js073 Multilaser</h4>
+                <h4 class="card-title">1 novo a partir de R$ 259,90 </h4>
+                <a href="#" class="btn btn-primary">Compra</a>
+                <a href="#" class="btn btn-primary">Enviar ao carinho</a>
+              </div>
+            </div>
+            <br>
+            
+            
+            <div id="controle_usb" class="card" style="width:400px"> 
+              <img class="card-img-bottom" src="img/pro/conpc.jpg" alt="Card image" style="width:70%" >
+              <div class="card-body">
+                <h4 class="card-title">Controle Joystick Usb Digital Analógico C/ Vibra Ps3 E Pc</h4>
+                <h4 class="card-title">Preço:	R$ 249,00<br>
+                <p class="card-text">Não disponível. 
+                    Não temos previsão de quando este produto estará disponível novamente.</p>
+                <a href="#" class="btn btn-primary">Compra</a>
+                <a href="#" class="btn btn-primary">Enviar ao carinho</a>
+              </div>
+            
+            </div>
+          </div>
+          
+        </div>
+        <div class="col" >
+            <div class="container-e">
+              <div id="headset" class="card" style="width:400px">
+                <img class="card-img-top" src="img/pro/fone.jpeg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title">Headset Gamer Universal Dobe (PS4 - Xbox One - PS3 - Xbox 360 - PC)</h4>
+                  <h4 class="card-title">	Disponível 
+                    <a href="https://www.amazon.com.br/gp/offer-listing/B07D4GQZRG/ref=dp_olp_0?ie=UTF8&condition=all&qid=1534163935&sr=1-12"> com este vendedores.</a>
+                  </h4>
+                  <a href="#" class="btn btn-primary">Compra</a>
+                  <a href="#" class="btn btn-primary">Enviar ao carinho</a>
+                </div>
+              </div>
+              <br>
+              
+              
+              <div id="volante_xbox" class="card" style="width:400px"> 
+                <img class="card-img-bottom" src="img/pro/pedal.jpg" alt="Card image" style="width:85%">
+                <div class="card-body">
+                  <h4 class="card-title">  Logitech Volante para Game Compativel X-Box One e PC, Preto</h4>
+                  <h4 class="card-title">	Disponível 
+                      <a href="https://www.amazon.com.br/gp/offer-listing/B01DY7E8GW/ref=dp_olp_0?ie=UTF8&condition=all&qid=1534163935&sr=1-13"> com  este vendedores.</a>
+                  </h4>
+                  <a href="#" class="btn btn-primary">Compra</a>
+                  <a href="#" class="btn btn-primary">Enviar ao carinho</a>
+                </div>
+              
+              </div>
+            </div>
+            
+          </div>
+          <div class="col" >
+              <div class="container">
+                <div id="jogo_minecraft" class="card" style="width:400px">
+                  <img class="card-img-top" src="img/pro/mani.jpg" alt="Card image" style="width:74%">
+                  <div class="card-body">
+                    <h4 class="card-title">Minecraft PC - Jogo Original Mojang</h4>
+                    <h4> 2 novos a partir de R$ 109,90</h4> 
+                    <a href="#" class="btn btn-primary">Compra</a>
+                    <a href="#" class="btn btn-primary">Enviar ao carinho</a>
+                  </div>
+                </div>
+                <br>
+                
+                
+                <div id="adaptador" class="card" style="width:400px"> 
+                  <img class="card-img-bottom" src="img/pro/adapc.jpeg" alt="Card image" style="width:93%">
+                  <div class="card-body">
+                    <h4 class="card-title">Adaptador Para Controle Joystick Controle Usb Pc Ps1 Ps2</h4>
+                    <h4 class="card-title">	Disponível 
+                        <a href="https://www.amazon.com.br/gp/offer-listing/B000F6BGXY/ref=dp_olp_0?ie=UTF8condition=allqid=1534166067sr=1-23"> com  este vendedores.</a>
+                    </h4>
+                    <a href="#" class="btn btn-primary">Compra</a>
+                    <a href="#" class="btn btn-primary">Enviar ao carinho</a>
+                  </div>
+                
+                </div>
+              </div>
+              
+            </div>
+      </div>
+  </div>
+</div>
+<div class="container-P">
+    
+    <ul class="pagination">
+      <li class="page-item"><a class="btn btn-info" href="#">Anterior</a></li>
+      <li class="page-item"><a class="page-link" href="produto.html"><b>1</b></a></li>
+      <li class="page-item"><a class="page-link" href="#"><b>2</b></a></li>
+      <li class="page-item"><a class="page-link" href="#"><b>3</b></a></li>
+      <li class="page-item"><a class="btn btn-info" href="#">Próximo</a></li>
+    </ul>
+</div>
+
+</body>
+</html>
+
+
